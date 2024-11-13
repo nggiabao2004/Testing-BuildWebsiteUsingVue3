@@ -2,14 +2,13 @@
  <header>
         <div class="container">
             <div class="logoBitis">
-                <img src="/Images/Starbuck.png" alt= "BrandLogo">
+                <img src="/Images/Highlands.png" alt= "BrandLogo">
             </div>
             <nav>
                 <ul>
                     <li><router-link to="/">Trang Chủ</router-link></li>
                     <li><router-link to="/gioithieu">Giới Thiệu</router-link></li>
                     <li><router-link to="/lienhe">Liên Hệ </router-link></li>
-                    <li><router-link to="/tintuc">Tin Tức </router-link></li>
                     <li v-if="user==null"><router-link to="/register">Đăng ký </router-link></li>
                     <li v-if="user==null"><router-link to="/login">Đăng nhập </router-link></li>
                 </ul>
