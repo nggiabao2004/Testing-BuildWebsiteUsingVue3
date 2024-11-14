@@ -6,6 +6,7 @@ import ProductDetail from '@/components/ComProductDetail.vue'
 import Cart from '@/components/ComCart.vue'
 import Register from '@/components/ComRegister'
 import Login from '@/components/ComLogin'
+
 //import HoaDon from '@/components/ComHoaDon'
 
 // tạo mảng chứa những đường link
